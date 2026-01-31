@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifting Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Random Shifting Earth Selector</h1>
+    <button  id="button" onclick="getRandomLocation()">Get Random Location</button>
+    <div id="location"></div>
+    <script>
+        function getRandomLocation() {
+            const shiftingEarth = ['Caelid', 'Mountaintop', 'Noklateo', 'Nothing', 'Volcano', 'The Great Hollow']; 
+            const random = Math.floor(Math.random() * shiftingEarth.length);   
+            document.getElementById('location').innerHTML = "<p id=\"locationDisplay\">Your shifting earth location is " + shiftingEarth[random] + "!</p>" +
+                                                                  "<p id=\"haveFunTxt\">Have fun! (Unless you got the Mountaintop)</p>";
+        }
+    </script>
+
+ </body>
+
+</body>
+</html>
