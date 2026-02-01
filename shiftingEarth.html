@@ -7,9 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <h1 id="title">Random Shifting Earth Selector</h1>
     <button  id="button" onclick="getRandomLocation()">Get Random Location</button>
     <div id="location"></div>
+    <div id="imageColumns">
+    <div id="left-column">
+       <img src="./Images/crater.jpg" alt="Crater Image" id="craterImage" width="500" height="300">
+       <img src="./Images/caelid.webp" alt="Caelid Image" id="caelidImage" width="500" height="300">
+    </div>
+
+    <div id="right-column">
+       <img src="./Images/cave.jpg" alt="Cave Image" id="caveImage" width="500" height="300">
+      <img src="./Images/noklataeo.webp" alt="Noklateo Image" id="noklateoImage" width="500" height="300">
+    </div>
+</div>
     <script>
         function getRandomLocation() {
             const shiftingEarth = ['Caelid', 'Mountaintop', 'Noklateo', 'Nothing', 'Volcano', 'The Great Hollow']; 
@@ -19,7 +31,8 @@
         }
     </script>
 
- </body>
+
+
 
 </body>
 </html>

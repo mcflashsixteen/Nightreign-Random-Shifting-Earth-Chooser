@@ -1,11 +1,6 @@
 body{
     background-color: #000461;
-    display: flex;
-    padding-top: 60px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+    
 }
 
 #title{
@@ -13,12 +8,73 @@ body{
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 150px;
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
 }
 
 #location{
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 #haveFunTxt{
     color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
+#button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: max-content;
+}
+#imageColumns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 100px; 
+}
+
+#left-column {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 100px;      
+    width: 100%;     
+}
+#right-column {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    gap: 100px;      
+    width: 100%;     
+}
+
+#left-column img,
+#right-column img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
