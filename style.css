@@ -1,7 +1,16 @@
-body{
-    background-color: #000461;
-    
+html{
+   
+    background-color: #16162b;
 }
+
+
+body{
+    margin: 50px;
+     background-color: #000461;
+    border-radius: 50px;
+}
+
+
 
 #title{
     color: white;
@@ -9,7 +18,7 @@ body{
     font-weight: bold;
     padding-bottom: 150px;
     display: flex;
-    padding-top: 60px;
+    padding-top: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
